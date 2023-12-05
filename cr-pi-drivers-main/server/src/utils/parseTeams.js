@@ -8,4 +8,4 @@ function parseTeams(string)  {
     } else return []; //Si la cadena original estaba vacía, la función devuelve un array vacío.
   };
   
-  module.exports = {parseTeams}
+  module.exports = {parseTeams} //La función parseTeams se exporta como parte de un objeto para que pueda ser utilizada en otros archivos mediante la importación. En este caso, se exporta como { parseTeams }
